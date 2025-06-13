@@ -1,0 +1,50 @@
+# Godot 4.x
+.godot/
+export_presets.cfg
+
+# Godot 3.x
+.import/
+export_presets.cfg # 也可以选择保留，如果团队成员使用相同的导出预设
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.lo
+*.zip
+*.tar.gz
+*.7z
+*.apk
+*.aab
+*.ipa
+*.dmg
+*.pkg
+*.deb
+*.rpm
+
+# Build artifacts / Exported projects
+build/
+export/
+*.pck
+*.wasm
+
+# Mono/C#
+.mono/
+bin/
+obj/
+*.pdb
+*.mdb
+*.sln
+*.csproj
+*.user
+*.userprefs
+
+# IDE / OS specific
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
